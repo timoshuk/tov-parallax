@@ -3,12 +3,10 @@ body {
   height: 100vh;
   font-size: 5em;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 section {
-  height: 100vh;
-}
+  height: 100vh; }
 
 ul {
   list-style: none;
@@ -16,11 +14,12 @@ ul {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, auto);
-  justify-content: center;
-  align-items: middle;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: middle;
+          align-items: middle;
   place-items: center;
-  height: 100vh;
-}
+  height: 100vh; }
 
 span {
   width: 110px;
@@ -29,5 +28,6 @@ span {
   bottom: 0;
   left: 0;
   background: black;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
+
+/*# sourceMappingURL=tov-parralax.css.map */
